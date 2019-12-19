@@ -1,0 +1,655 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+body {
+	color: #fff;
+  font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+
+
+ .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;/*sidenav bg coloue*/
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 15px 8px 15px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181; /*font colour*/
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #7E57C2 ; /*link coloue */
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 50px;
+  background-color: #; */nav bg button color */
+  padding: 10px 15px;
+  border: none;
+	color: #fff;
+}
+
+.openbtn:hover {
+  background-color:  ;
+}
+
+#main {
+  transition: margin-left .s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 auto; }
+
+/* CTA button
+   ========================================================================== */
+
+   .main-content .item {
+     display: grid;
+     grid-template-rows: 1fr min-content;
+     align-items: center;
+     justify-content: center;
+     height: 50vh;
+     flex-wrap: wrap;
+     background: var(--bg-color);
+   }
+   .main-content .item:not(.footer) {
+     padding-top: 1rem;
+   }
+	 /* images
+	 .main-image{
+  width: 50%;
+  padding-bottom: 30px;
+} */
+
+/* CTA click me button with aniamtions */
+   button {
+     background: transparent;
+     border: 3px solid #3F51B5;
+     border-radius: 50px;
+     padding: 0.8rem 2rem;
+     font: 24px 'Roboto', sans-serif;
+     outline: none;
+     cursor: pointer;
+     position: relative;
+     transition: 0.2s ease-in-out;
+     letter-spacing: 2px;
+   }
+button a {
+  color: #3F51B5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+   .name {
+     width: 100%;
+     text-align: center;
+     padding: 0 0 3rem;
+     font: 500 14px 'Roboto', sans-serif;
+     letter-spacing: .5px;
+     text-transform: uppercase;
+     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+   }
+
+   .button-parrot .parrot {
+     position: absolute;
+     width: 60px;
+     text-align: center;
+     animation: blink 0.8s infinite;
+     color: transparent;
+   }
+   .button-parrot .parrot:before {
+     content: "Click Me!";
+   }
+   .button-parrot .parrot:nth-child(1) {
+     top: -30px;
+     left: -40px;
+     font: 12px/1 "'Roboto',", sans-serif;
+     transform: rotate(-20deg);
+     animation-duration: 0.5s;
+   }
+   .button-parrot .parrot:nth-child(2) {
+     font: 12px/1 'Roboto', sans-serif;
+     right: -40px;
+     top: -20px;
+     transform: rotate(15deg);
+     animation-duration: 0.3s;
+   }
+   .button-parrot .parrot:nth-child(3) {
+     font: 16px/1 'Roboto', sans-serif;
+     top: -60px;
+     left: 15px;
+     transform: rotate(10deg);
+     animation-duration: 1s;
+   }
+   .button-parrot .parrot:nth-child(4) {
+     font: 18px/1 'Roboto', sans-serif;
+     top: -70px;
+     left: 95px;
+     transform: rotate(2deg);
+     animation-duration: 0.7s;
+   }
+   .button-parrot .parrot:nth-child(5) {
+     font: 14px/1 'Roboto', sans-serif;
+     top: 80px;
+     left: 105px;
+     transform: rotate(-20deg);
+     animation-duration: 0.8s;
+   }
+   .button-parrot .parrot:nth-child(6) {
+     font: 12px/1 'Roboto', sans-serif;
+     top: 80px;
+     left: 5px;
+     transform: rotate(10deg);
+     animation-duration: 1.2s;
+   }
+   .button-parrot button:hover .parrot:before {
+     content: "Do it!";
+     width: 70px;
+   }
+
+   @keyframes blink {
+     25%,
+   	75% {
+       color: transparent;
+     }
+     40%,
+   	60% {
+       color: #3F51B5;
+     }
+   }
+/* -- end of CTA */
+
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden; }
+
+
+
+body {
+  -webkit-tap-highlight-color: #fff; }
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #7E57C2;
+  font-size: 4em;
+  line-height: 1.2em; }
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 3em; } }
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #7E57C2;
+  font-size: 3em;
+  line-height: 1.3em; }
+  @media (max-width: 700px) {
+    h2 {
+      font-size: 2.5em; } }
+
+ p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #596568;
+  font-size: 1.1em;
+  line-height: 1.5em; }
+
+
+
+
+blockquote {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #7E57C2;
+  font-size: 1.5em;
+  line-height: 1.5em;
+   }
+  blockquote cite {
+    font-weight: 700;
+    font-size: 0.7em; }
+
+a {
+  color: #7E57C2;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1; }
+
+a:hover {
+  opacity: 0.6; }
+
+.sub {
+  font-family:  'Roboto', sans-serif;
+  font-weight: 450;
+  color: white;
+  font-size: 1.9em;
+  line-height: 1.3em; }
+
+.header {
+  color: white; }
+
+.buttons {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 70px; }
+
+.buttons-left {
+  float: left; }
+
+.buttons-right {
+  float: right; }
+
+header {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: minmax 110px, auto;
+  grid-gap: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  background-position: cover;
+	background:#3F51B5;
+   background-image: linear-gradient(#7E57C2 50%, #3F51B5);
+
+ }
+  @media (max-width: 1000px) {
+    header {
+      height: auto;
+      padding: 100px 0; } }
+  header .title-text {
+    grid-column: 2/8;
+    align-self: center; }
+    @media (max-width: 1000px) {
+      header .title-text {
+        grid-column: 2/12; } }
+
+
+/* rotate text */
+
+/* start tile secton */
+.title-text {
+	text-align: center;
+		height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax px, auto;
+
+  max-width: 80%;
+  margin:  auto; }
+  @media (min-width: 2000px) {
+    .content {
+      max-width: 700px; } }
+  .content .wrapper {
+    grid-column: 4/10;
+    padding: 10px 0 10px 10px; }
+    @media (max-width: 1300px) {
+      .content .wrapper {
+        grid-column: 2/12; } }
+    @media (min-width: 2000px) {
+      .content .wrapper {
+        grid-column: 1/12; } }
+    .content .wrapper h1 {
+      padding: 0 0 30px 0; }
+  }
+.wrapper a{
+	color: #F4511E;
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.2s ease;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
+
+	.copyright {
+		width: 100%;
+		font-size: 0.950em;
+		text-align: center;
+		text-decoration: none;
+		margin-top: 100px;
+	}
+/*images
+.maze{
+
+
+
+  height: 50%;
+}*/
+.maze {
+
+		width: 250px;
+		height: 250px;
+}
+.brain {
+
+			width: 450px;
+			height: 280px;
+	}
+	.time {
+		width: 200px;
+		height: 300px;
+	}
+	.book {
+		width: 400px;
+		height: 200px;
+	}
+	/*text-align: center;
+		height: 100%;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;*/
+
+/*- rotate text font-family: 'Lato', sans-serif;
+font-weight: 400;
+color: #7E57C2;
+font-size: 1.5em;
+line-height: 1.5em;
+.rotate {
+  padding: 2em 5em;
+  font: normal 20px/50px 'Lato', sans-serif;.
+  color: #999;
+}
+.rotate p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+span {
+  display: inline-block;
+  color: #7E57C2;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  animation: move 6s;
+  animation-iteration-count: infinite;
+animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}*/
+
+.rotate {
+  padding: 0 5em 5em;
+  font: normal 40px/50px 'Lato', sans-serif;
+  color: #7E57C2;
+}
+.rotate p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+span {
+  display: inline-block;
+  color: #7E57C2;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  animation: move 5s;
+  animation-iteration-count: infinite;
+animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+/* glitch animation */
+
+
+.glitch {
+	padding: 100px;
+  position: relative;
+  margin: 0 auto;
+  color: #3F51B5;;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  clip: rect(0, 900px, 0, 0);
+}
+.glitch::before {
+  left: 7px;
+  text-shadow: 1px 0 green;
+  animation: glitch-effect 3s infinite linear alternate-reverse;
+}
+.glitch::after {
+  left: 3px;
+  text-shadow: -1px 0 red;
+  animation: glitch-effect 2s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes glitch-effect {
+  0% {
+    clip: rect(8px, 9999px, 92px, 0);
+  }
+  5% {
+    clip: rect(66px, 9999px, 49px, 0);
+  }
+  10% {
+    clip: rect(76px, 9999px, 97px, 0);
+  }
+  15% {
+    clip: rect(82px, 9999px, 78px, 0);
+  }
+  20% {
+    clip: rect(94px, 9999px, 76px, 0);
+  }
+  25% {
+    clip: rect(64px, 9999px, 24px, 0);
+  }
+  30% {
+    clip: rect(53px, 9999px, 35px, 0);
+  }
+  35% {
+    clip: rect(22px, 9999px, 96px, 0);
+  }
+  40% {
+    clip: rect(65px, 9999px, 40px, 0);
+  }
+  45% {
+    clip: rect(16px, 9999px, 79px, 0);
+  }
+  50% {
+    clip: rect(87px, 9999px, 80px, 0);
+  }
+  55% {
+    clip: rect(48px, 9999px, 25px, 0);
+  }
+  60% {
+    clip: rect(17px, 9999px, 71px, 0);
+  }
+  65% {
+    clip: rect(71px, 9999px, 67px, 0);
+  }
+  70% {
+    clip: rect(31px, 9999px, 74px, 0);
+  }
+  75% {
+    clip: rect(52px, 9999px, 98px, 0);
+  }
+  80% {
+    clip: rect(12px, 9999px, 19px, 0);
+  }
+  85% {
+    clip: rect(68px, 9999px, 41px, 0);
+  }
+  90% {
+    clip: rect(2px, 9999px, 73px, 0);
+  }
+  95% {
+    clip: rect(81px, 9999px, 92px, 0);
+  }
+  100% {
+    clip: rect(74px, 9999px, 86px, 0);
+  }
+}
+
+@keyframes glitch-effect {
+  0% {
+    clip: rect(8px, 9999px, 92px, 0);
+  }
+  5% {
+    clip: rect(66px, 9999px, 49px, 0);
+  }
+  10% {
+    clip: rect(76px, 9999px, 97px, 0);
+  }
+  15% {
+    clip: rect(82px, 9999px, 78px, 0);
+  }
+  20% {
+    clip: rect(94px, 9999px, 76px, 0);
+  }
+  25% {
+    clip: rect(64px, 9999px, 24px, 0);
+  }
+  30% {
+    clip: rect(53px, 9999px, 35px, 0);
+  }
+  35% {
+    clip: rect(22px, 9999px, 96px, 0);
+  }
+  40% {
+    clip: rect(65px, 9999px, 40px, 0);
+  }
+  45% {
+    clip: rect(16px, 9999px, 79px, 0);
+  }
+  50% {
+    clip: rect(87px, 9999px, 80px, 0);
+  }
+  55% {
+    clip: rect(48px, 9999px, 25px, 0);
+  }
+  60% {
+    clip: rect(17px, 9999px, 71px, 0);
+  }
+  65% {
+    clip: rect(71px, 9999px, 67px, 0);
+  }
+  70% {
+    clip: rect(31px, 9999px, 74px, 0);
+  }
+  75% {
+    clip: rect(52px, 9999px, 98px, 0);
+  }
+  80% {
+    clip: rect(12px, 9999px, 19px, 0);
+  }
+  85% {
+    clip: rect(68px, 9999px, 41px, 0);
+  }
+  90% {
+    clip: rect(2px, 9999px, 73px, 0);
+  }
+  95% {
+    clip: rect(81px, 9999px, 92px, 0);
+  }
+  100% {
+    clip: rect(74px, 9999px, 86px, 0);
+  }
+}
+/* paw animation button */
+.heart {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-image:url( 'https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png');
+  background-position: left;
+  background-repeat:no-repeat;
+  background-size:2900%;
+}
+
+.heart:hover {
+  background-position:right;
+}
+
+.is_animating {
+  animation: heart-burst .8s steps(26) 1;
+}
+
+@keyframes heart-burst {
+  from {background-position:left;}
+  to { background-position:right;}
+}
