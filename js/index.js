@@ -14,15 +14,17 @@ icons.forEach (icon => {
     icon.classList.toggle("open");
   });
 });
-$(document).ready(function () {
-  //your code here
+
 
 /* when a user clicks, toggle the 'is-animating' class */
+$(document).ready(function () {
 $(".heart").on('click touchstart', function(){
-  $(this).toggleClass('is_animating');
+  $(this).toggleClass('animating');
 });
 
 /*when the animation is over, remove the class*/
 $(".heart").on('animationend', function(){
-  $(this).toggleClass('is_animating');
+  $(this).toggleClass('animating');
 });
+
+  });
