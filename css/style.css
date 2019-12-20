@@ -44,7 +44,7 @@ body {
 
 .openbtn {
   font-size: 50px;
-  background-color: #; */nav bg button color */
+  background-color: #; /*nav bg button color */
   padding: 10px 15px;
   border: none;
 	color: #fff;
@@ -202,21 +202,21 @@ body {
   -webkit-tap-highlight-color: #fff; }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #7E57C2;
-  font-size: 4em;
+  font-size: 2.5em;
   margin: 0.5 0;
   line-height: 1.1em; }
   @media (max-width: 700px) {
     h1 {
-      font-size: 3em; } }
+      font-size: 2em; } }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #7E57C2;
-  font-size: 3em;
+  color: #3F51B5;
+  font-size: 2.7em;
   line-height: 1.2em;
   margin: 0.5em 0; }
   @media (max-width: 700px) {
@@ -228,14 +228,14 @@ h2 {
   font-weight: 400;
   color: #596568;
   font-size: 1.1em;
-  line-height: 1.5em;
+  line-height: 1.8em;
   margin: 0.5em 0; }
 
 
 
 
 blockquote {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #7E57C2;
   font-size: 1.5em;
@@ -258,8 +258,8 @@ a:hover {
   font-family:  'Roboto', sans-serif;
   font-weight: 450;
   color: white;
-  font-size: 1.9em;
-  line-height: 1.3em; }
+  font-size: 1.6em;
+  line-height: 1.1em; }
 
 .header {
   color: white; }
@@ -275,7 +275,7 @@ header {
   height: 100vh;
   background-position: cover;
 	background:#3F51B5;
-   background-image: linear-gradient(#7E57C2 50%, #3F51B5);
+  background-image: linear-gradient(#7E57C2 50%, #3F51B5);
 
  }
   @media (max-width: 1000px) {
@@ -343,36 +343,44 @@ nav a {
 		text-decoration: none;
 		margin-top: 100px;
 	}
-/*images
-.maze{
+/*images*/
+.read{
+  width: 300px;
+  height: 400px;
+  display: block;
 
-
-
-  height: 50%;
-}*/
+}
 .maze {
 
-		width: 250px;
-		height: 250px;
+		width: 300px;
+		height: 320px;
+    display: block;
 }
 .brain {
 
-			width: 450px;
-			height: 280px;
+			width: 400px;
+			height: 300px;
+      display: block;
 	}
 	.time {
 		width: 180px;
 		height: 300px;
+    display: block;
 	}
 	.book {
 		width: 400px;
 		height: 200px;
+    display: block;
 	}
-	
+	.final {
+    width: 200px;
+    height: 350px;
+    display: block;
+  }
 
 .rotate {
   padding: 0 5em 5em;
-  font: normal 40px/50px 'Lato', sans-serif;
+  font: normal 40px/50px 'Montserrat', sans-serif;
   color: #7E57C2;
 }
 .rotate p {
@@ -414,7 +422,7 @@ animation-delay: 1s;
   margin: 0 auto;
   color: #3F51B5;;
   font-size: 40px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
@@ -584,7 +592,14 @@ animation-delay: 1s;
   background-repeat:no-repeat;
   background-size:2900%;
 }
-
+.heart p{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #7E57C2;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0.5em 0; }
+}
 .heart:hover {
   background-position:right;
 }
